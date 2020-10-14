@@ -1,0 +1,26 @@
+# GitHub Finder
+
+Este é uma sistema de visulização de informações de usuários do GitHub baseado nas informações recebidas na api disponibilizada pelo proprio GitHUb.
+
+Os requisitos para esta aplicação foram:
+
+Implementar uma aplicação client-side, que consulte a API do GitHub e mostre os repositórios de um determinado usuário. Esta aplicação deve funcionar nos navegadores mais recentes do mercado.
+
+> Requisitos de negócio:
+>
+> - Eu, como usuário, desejo buscar por um usuário do GitHub;
+> - Eu, como usuário, desejo ver os detalhes desse usuário que foi buscado (número de seguidores, número de seguidos, imagem do avatar, e-mail e bio);
+> - Eu, como usuário, desejo ver a listagem dos repositórios desse usuário que foi buscado, ordenados pelo número decrescente de estrelas;
+
+    As APIs consumidas são:
+
+    Detalhes de um usuário: https://api.github.com/users/{username}
+    Repositórios de um usuário: https://api.github.com/users/{username}/repos
+    Detalhes de um repositório: https://api.github.com/repos/{full_name}
+
+Para este sistema foram utilizados: 
+- Javascript
+- Servidor Node JS
+- Express (Módulo do Node JS)
+
+> Esta aplicação pode ser vista em funcionamento em:
